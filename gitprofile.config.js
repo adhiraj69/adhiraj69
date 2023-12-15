@@ -14,12 +14,12 @@ const config = {
   social: {
     linkedin: '',
     phone: '9123087150',
-    email: ('adhirajbanerjee35@gmail.com','adhiraj@iitk.ac.in')
+    email: 'adhirajbanerjee35@gmail.com'
   },
   resume: {
-    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1TAcs5rJGFkmULK_KRKSxBpVZElKyb13i/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
-  skills: ['JavaScript', 'React.js'],
+  skills: ['LaTeX','python', 'pytorch', 'transformers', 'librosa', 'Montreal-Forced-Aligner', 'tslearn', 'fuzzysearch', 'hmmlearn'],
   experiences: [
     {
       company: 'Company Name',
@@ -46,20 +46,20 @@ const config = {
   ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'Indian Institute of Technology Kanpur',
+      degree: 'Ph.D.',
+      from: '2019',
+      expected: '2024',
+    },
+    {
+      institution: 'University of Engineering and Management Kolkata',
+      degree: 'B.Tech.',
       from: '2015',
       to: '2019',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
   ],
   // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
+  publications: [
     {
       title: 'Project Name',
       description:
@@ -76,11 +76,11 @@ const config = {
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 5, // How many posts to display. Max is 10.
-  },
+  //blog: {
+   // source: 'dev', // medium | dev
+   // username: 'arifszn', // to hide blog section, keep it empty
+   // limit: 5, // How many posts to display. Max is 10.
+  //},
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
