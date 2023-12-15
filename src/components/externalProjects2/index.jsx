@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import { ga, skeleton } from '../../helpers/utils';
 import LazyImage from '../lazy-image';
 
-const displaySection = (externalProjects) => {
+const displaySection = (externalProjects2) => {
   if (
-    externalProjects &&
-    Array.isArray(externalProjects) &&
-    externalProjects.length
+    externalProjects2 &&
+    Array.isArray(externalProjects2) &&
+    externalProjects2.length
   ) {
     return true;
   } else {
@@ -15,10 +15,10 @@ const displaySection = (externalProjects) => {
   }
 };
 
-const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
+const ExternalProject = ({ externalProjects2, loading, googleAnalytics }) => {
   const renderSkeleton = () => {
     let array = [];
-    for (let index = 0; index < externalProjects.length; index++) {
+    for (let index = 0; index < externalProjects2.length; index++) {
       array.push(
         <div className="card shadow-lg compact bg-base-100" key={index}>
           <div className="p-8 h-full w-full">
@@ -69,7 +69,7 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
   };
 
   const renderExternalProjects = () => {
-    return externalProjects.map((item, index) => (
+    return externalProjects2.map((item, index) => (
       <a
         className="card shadow-lg compact bg-base-100 cursor-pointer"
         key={index}
@@ -130,7 +130,7 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
 
   return (
     <Fragment>
-      {displaySection(externalProjects) && (
+      {displaySection(externalProjects2) && (
         <div className="col-span-1 lg:col-span-2">
           <div className="grid grid-cols-2 gap-6">
             <div className="col-span-2">
@@ -142,7 +142,7 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
                         skeleton({ width: 'w-40', height: 'h-8' })
                       ) : (
                         <span className="text-base-content opacity-70">
-                          Publications
+                          Awards and Recognition
                         </span>
                       )}
                     </h5>
