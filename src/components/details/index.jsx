@@ -249,8 +249,8 @@ const Details = ({ profile, loading, social, github }) => {
                 <ListItem
                   icon={<RiMailFill />}
                   title="Work Email:"
-                  value={social.email}
-                  link={`mailto:${social.email}`}
+                  value={social.wemail}
+                  link={`mailto:${social.wemail}`}
                 />
               )}
             </Fragment>
