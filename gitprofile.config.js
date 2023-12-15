@@ -63,16 +63,16 @@ const config = {
     {
       title: 'wav2tok: Deep Sequence Tokenizer for Audio Retrieval',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Paper accepted in ICLR 2023 main conference',
       imageUrl: 'https://iclr.cc/media/PosterPDFs/ICLR%202023/11698-thumb.png',
       link: 'https://iclr.cc/virtual/2023/poster/11698',
     },
     {
-      title: 'Project Name',
+      title: 'Enc-Dec RNN Acoustic Word Embeddings learned via Pairwise Prediction',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Paper accepted in INTERSPEECH 2023 main conference',
+      imageUrl: '',
+      link: 'https://www.isca-speech.org/archive/pdfs/interspeech_2023/banerjee23_interspeech.pdf',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
