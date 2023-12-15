@@ -3,7 +3,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'adhiraj69', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 8, // How many projects to display.
     exclude: {
@@ -13,21 +13,9 @@ const config = {
   },
   social: {
     linkedin: '',
-    twitter: '',
-    mastodon: '',
-    facebook: '',
-    instagram: '',
-    youtube: '',
-    dribbble: '',
-    behance: '',
-    medium: '',
-    dev: '',
-    stackoverflow: '', // format: userid/username
-    website: '',
-    skype: '',
-    telegram: '',
-    phone: '',
-    email: '',
+    phone: '9123087150',
+    email: 'adhirajbanerjee35@gmail.com',
+    email: 'adhiraj@iitk.ac.in'
   },
   resume: {
     fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
