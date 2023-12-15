@@ -1,40 +1,38 @@
 // gitprofile.config.js
 
+
 const config = {
   github: {
-    username: 'adhiraj69', // Your GitHub org/user name. (Required)
+    username: 'arifszn', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 8, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'https://www.linkedin.com/in/adhiraj-banerjee-0051b01/',
-    phone: '9123087150',
-    email: 'adhirajbanerjee35@gmail.com', 'adhiraj@iitk.ac.in'
+    linkedin: '',
+    twitter: '',
+    mastodon: '',
+    facebook: '',
+    instagram: '',
+    youtube: '',
+    dribbble: '',
+    behance: '',
+    medium: '',
+    dev: '',
+    stackoverflow: '', // format: userid/username
+    website: '',
+    skype: '',
+    telegram: '',
+    phone: '',
+    email: '',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
-  skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-  ],
+  skills: ['JavaScript', 'React.js'],
   experiences: [
     {
       company: 'Company Name',
@@ -51,14 +49,14 @@ const config = {
       companyLink: 'https://example.com',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
+      body: 'Certification Body Name',
+      name: 'Sample Certification',
       year: 'March 2022',
-      link: 'https://example.com'
+      link: 'https://example.com',
     },
-  ], */
+  ],
   education: [
     {
       institution: 'Institution Name',
@@ -73,7 +71,6 @@ const config = {
       to: '2014',
     },
   ],
-
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
@@ -95,7 +92,7 @@ const config = {
   blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    limit: 5, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -106,15 +103,15 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'light',
 
-    // Hides the switch in the navbar
+    // Hides the theme change switch
     // Useful if you want to support a single color mode
     disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Hide the ring in Profile picture
     hideAvatarRing: false,
@@ -166,11 +163,6 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Copyright © 2023 John Doe`,
 };
-
 export default config;
