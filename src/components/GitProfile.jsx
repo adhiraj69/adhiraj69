@@ -26,7 +26,6 @@ import PropTypes from 'prop-types';
 import '../assets/index.css';
 import { formatDistance } from 'date-fns';
 import ExternalProject from './external-project';
-import ExternalProject2 from './external-projects-2';
 
 
 const bgColor = 'bg-base-300';
@@ -210,11 +209,6 @@ const GitProfile = ({ config }) => {
                         externalProjects={sanitizedConfig.externalProjects}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
-                      <ExternalProject2
-                        loading={loading}
-                        externalProjects2={sanitizedConfig.externalProjects}
-                        googleAnalytics={sanitizedConfig.googleAnalytics}
-                      />
                       <Blog
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
@@ -281,15 +275,7 @@ GitProfile.propTypes = {
       })
     ),
 
-    
-    externalProjects2: PropTypes.arrayOf(
-      PropTypes.shape({
-        title: PropTypes.string.isRequired,
-        description: PropTypes.string.isRequired,
-        link: PropTypes.string.isRequired,
-        imageUrl: PropTypes.string,
-      })
-    ),
+
     experiences: PropTypes.arrayOf(
       PropTypes.shape({
         company: PropTypes.string,
