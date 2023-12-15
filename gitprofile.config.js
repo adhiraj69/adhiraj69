@@ -52,21 +52,21 @@ const config = {
     },
 
        {
-      body: 'Travel grant from ICML DEI',
-      name: 'Financial Aid to attend ICML 2022 conference Baltimore, Maryland',
+      body: 'Financial Aid to attend ICML 2022 conference Baltimore, Maryland',
+      name: 'Travel grant from ICML DEI',
       year: '2022',
       link: 'https://icml.cc/Conferences/2022',
     },
 
            {
-      body: 'Travel grants from ICLR DEI and Google India Research',
-      name: 'Financial Aid to attend ICLR 2023 conference Kigali, Rwanda',
+      body: 'Financial Aid to attend ICLR 2023 conference Kigali, Rwanda',
+      name: 'Travel grants from ICLR DEI and Google India Research',
       year: '2023',
       link: 'https://iclr.cc/Conferences/2023',
     },
            {
-      body: 'Travel grant from Microsoft India Research',
-      name: 'Financial Aid to attend INTERSPEECH 2023 conference Dublin, Ireland',
+      body: 'Financial Aid to attend INTERSPEECH 2023 conference Dublin, Ireland',
+      name: 'Travel grant from Microsoft India Research',
       year: '2023',
       link: 'https://interspeech2023.org',
     },
