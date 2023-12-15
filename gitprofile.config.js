@@ -14,8 +14,7 @@ const config = {
   social: {
     linkedin: '',
     phone: '9123087150',
-    email: 'adhirajbanerjee35@gmail.com',
-    workEmail: 'adhiraj@iitk.ac.in'
+    email: ('adhirajbanerjee35@gmail.com','adhiraj@iitk.ac.in')
   },
   resume: {
     fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
