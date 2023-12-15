@@ -44,7 +44,7 @@ const config = {
       //link: 'https://example.com',
     //},
   //],
-  education: [
+  externalProjects: [
     {
       institution: 'Indian Institute of Technology Kanpur',
       degree: 'Ph.D.',
