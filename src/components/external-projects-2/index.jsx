@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { ga, skeleton } from '../../helpers/utils';
 import LazyImage from '../lazy-image';
 
-const displaySection = (externalProjects2) => {
+const displaySection = (externalProjects) => {
   if (
     externalProjects2 &&
     Array.isArray(externalProjects2) &&
@@ -18,7 +18,7 @@ const displaySection = (externalProjects2) => {
 const ExternalProject2 = ({ externalProjects2, loading, googleAnalytics }) => {
   const renderSkeleton = () => {
     let array = [];
-    for (let index = 0; index < externalProjects.length; index++) {
+    for (let index = 0; index < externalProjects2.length; index++) {
       array.push(
         <div className="card shadow-lg compact bg-base-100" key={index}>
           <div className="p-8 h-full w-full">
