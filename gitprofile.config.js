@@ -76,15 +76,7 @@ const config = {
       link: 'https://www.isca-speech.org/archive/pdfs/interspeech_2023/banerjee23_interspeech.pdf',
     },
   ],
-   
-  certifications: [
-    {
-      body: 'Certification Body Name',
-      name: 'Sample Certification',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+
   // Display blog posts from your medium or dev account. (Optional)
   //blog: {
    // source: 'dev', // medium | dev
