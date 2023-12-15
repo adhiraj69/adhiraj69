@@ -14,36 +14,36 @@ const config = {
   social: {
     linkedin: '',
     phone: '9123087150',
-    email: 'adhirajbanerjee35@gmail.com'
+    email: ['adhirajbanerjee35@gmail.com', 'adhiraj@iitk.ac.in'],
   },
   resume: {
     fileUrl: 'https://drive.google.com/file/d/1TAcs5rJGFkmULK_KRKSxBpVZElKyb13i/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: ['LaTeX','python', 'pytorch', 'transformers', 'librosa', 'Montreal-Forced-Aligner', 'tslearn', 'fuzzysearch', 'hmmlearn'],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
-  certifications: [
-    {
-      body: 'Certification Body Name',
-      name: 'Sample Certification',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  //experiences: [
+   // {
+    //  company: 'Company Name',
+     // position: 'Position',
+      //from: 'September 2021',
+      //to: 'Present',
+      //companyLink: 'https://example.com',
+    //},
+    //{
+     // company: 'Company Name',
+      //position: 'Position',
+      //from: 'July 2019',
+      //to: 'August 2021',
+      //companyLink: 'https://example.com',
+   // },
+  //],
+  //certifications: [
+   // {
+    //  body: 'Certification Body Name',
+     // name: 'Sample Certification',
+      //year: 'March 2022',
+      //link: 'https://example.com',
+    //},
+  //],
   education: [
     {
       institution: 'Indian Institute of Technology Kanpur',
