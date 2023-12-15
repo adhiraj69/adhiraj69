@@ -77,6 +77,23 @@ const config = {
     },
   ],
 
+    externalProjects2: [
+    {
+      title: 'wav2tok: Deep Sequence Tokenizer for Audio Retrieval',
+      description:
+        'Paper accepted in ICLR 2023 main conference',
+      imageUrl: 'https://iclr.cc/media/PosterPDFs/ICLR%202023/11698-thumb.png',
+      link: 'https://iclr.cc/virtual/2023/poster/11698',
+    },
+    {
+      title: 'Enc-Dec RNN Acoustic Word Embeddings learned via Pairwise Prediction',
+      description:
+        'Paper accepted in INTERSPEECH 2023 main conference',
+      imageUrl: 'https://drive.google.com/file/d/1NYDsLMMs5rbvj9D_KHpCW--sf3OHcumk/view?usp=sharing',
+      link: 'https://www.isca-speech.org/archive/pdfs/interspeech_2023/banerjee23_interspeech.pdf',
+    },
+  ],
+
   // Display blog posts from your medium or dev account. (Optional)
   //blog: {
    // source: 'dev', // medium | dev
