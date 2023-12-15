@@ -106,7 +106,7 @@ const config = {
       title: 'Talk on Query-by-Example (QbE) and Query-by-Humming Music Information Retrieval (MIR) systems, WISSAP 2023',
       description:
         'Invited talk in Winter School on Speech and Audio Processing 2023, IIT Kanpur. Detailed presentation of QbE systems like Shazam, Now Playing (Google) and of retrieval techniques such as Vector Similarity Search, Note-based Retrieval, Hashing, Maximum Inner Product Search (MIPS), Vector Quantization, Anisotropic Vector Quantization.',
-      imageUrl: 'https://wissap23.madhavlab.com/images/wissap_logo.png',
+      imageUrl: 'https://www.mufin.com/wp-content/uploads/2016/03/audio-fingerprinting-technology.png',
       link: 'https://youtube.com/playlist?list=PLbtAaXHMto-vpyPwGJrbpJ9jSb4sEAJo7&si=eOanE1d_qCgtJA-9',
     },
   ],
