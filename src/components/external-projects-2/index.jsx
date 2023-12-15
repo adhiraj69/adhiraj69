@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import { ga, skeleton } from '../../helpers/utils';
 import LazyImage from '../lazy-image';
 
-const displaySection = (externalProjects) => {
+const displaySection = (externalProjects2) => {
   if (
-    externalProjects &&
-    Array.isArray(externalProjects) &&
-    externalProjects.length
+    externalProjects2 &&
+    Array.isArray(externalProjects2) &&
+    externalProjects2.length
   ) {
     return true;
   } else {
@@ -15,7 +15,7 @@ const displaySection = (externalProjects) => {
   }
 };
 
-const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
+const ExternalProject2 = ({ externalProjects2, loading, googleAnalytics }) => {
   const renderSkeleton = () => {
     let array = [];
     for (let index = 0; index < externalProjects.length; index++) {
@@ -69,7 +69,7 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
   };
 
   const renderExternalProjects = () => {
-    return externalProjects.map((item, index) => (
+    return externalProjects2.map((item, index) => (
       <a
         className="card shadow-lg compact bg-base-100 cursor-pointer"
         key={index}
@@ -130,7 +130,7 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
 
   return (
     <Fragment>
-      {displaySection(externalProjects) && (
+      {displaySection(externalProjects2) && (
         <div className="col-span-1 lg:col-span-2">
           <div className="grid grid-cols-2 gap-6">
             <div className="col-span-2">
@@ -162,10 +162,10 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
   );
 };
 
-ExternalProject.propTypes = {
+ExternalProject2.propTypes = {
   externalProjects: PropTypes.array,
   loading: PropTypes.bool.isRequired,
   googleAnalytics: PropTypes.object,
 };
 
-export default ExternalProject;
+export default ExternalProject2;
