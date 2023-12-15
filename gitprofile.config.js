@@ -49,7 +49,7 @@ const config = {
       institution: 'Indian Institute of Technology Kanpur',
       degree: 'Ph.D.',
       from: '2019',
-      expected: '2024',
+      to: '2024',
     },
     {
       institution: 'University of Engineering and Management Kolkata',
