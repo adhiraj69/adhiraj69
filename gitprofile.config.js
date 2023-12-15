@@ -15,7 +15,7 @@ const config = {
     linkedin: 'adhiraj-banerjee-0051b01',
     phone: '+919123087150',
     email: 'adhirajbanerjee35@gmail.com',
-    wemail: 'adhiraj@iitk.ac.in'
+    wemail: 'adhiraj@iitk.ac.in',
   },
   resume: {
     fileUrl: 'https://drive.google.com/file/d/127hvfsAZanzhp57dRaPzNjJ3pdw4-mmO/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
