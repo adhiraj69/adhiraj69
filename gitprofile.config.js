@@ -12,7 +12,7 @@ const config = {
     },
   },
   social: {
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/adhiraj-banerjee-0051b01/',
     phone: '9123087150',
     email: 'adhirajbanerjee35@gmail.com',
   },
