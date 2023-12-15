@@ -61,11 +61,11 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'wav2tok: Deep Sequence Tokenizer for Audio Retrieval',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      imageUrl: 'https://iclr.cc/media/PosterPDFs/ICLR%202023/11698-thumb.png',
+      link: 'https://iclr.cc/virtual/2023/poster/11698',
     },
     {
       title: 'Project Name',
