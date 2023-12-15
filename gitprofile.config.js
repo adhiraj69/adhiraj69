@@ -75,6 +75,14 @@ const config = {
       imageUrl: 'https://drive.google.com/file/d/1NYDsLMMs5rbvj9D_KHpCW--sf3OHcumk/view?usp=sharing',
       link: 'https://www.isca-speech.org/archive/pdfs/interspeech_2023/banerjee23_interspeech.pdf',
     },
+
+     {
+      title: 'Talk on Query-by-Example (QbE) and Query-by-Humming Music Information Retrieval (MIR) systems',
+      description:
+        'Invited talk in Winter School on Speech and Audio Processing 2023, IIT Kanpur. Detailed presentation of QbE systems like Shazam, Now Playing (Google) and of retrieval techniques such as Vector Similarity Search, Note-based Retrieval, Hashing, Maximum Inner Product Search (MIPS), Vector Quantization, Anisotropic Vector Quantization.',
+      imageUrl: 'https://wissap23.madhavlab.com/images/wissap_logo.png',
+      link: 'https://youtube.com/playlist?list=PLbtAaXHMto-vpyPwGJrbpJ9jSb4sEAJo7&si=eOanE1d_qCgtJA-9',
+    },
   ],
 
 
