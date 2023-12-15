@@ -245,6 +245,8 @@ const Details = ({ profile, loading, social, github }) => {
                   title="Email:"
                   value={social.email}
                   link={`mailto:${social.email}`}
+                    />
+              )}
               {social?.wemail && (
                 <ListItem
                   icon={<RiMailFill />}
