@@ -52,7 +52,7 @@ const Experience = ({ experiences, loading }) => {
                   skeleton({ width: 'w-32', height: 'h-8' })
                 ) : (
                   <span className="text-base-content opacity-70">
-                    Experience as Reviewer
+                    Experience 
                   </span>
                 )}
               </h5>
@@ -66,7 +66,7 @@ const Experience = ({ experiences, loading }) => {
                     {experiences.map((experience, index) => (
                       <ListItem
                         key={index}
-                        time={`${experience.from} - ${experience.to}`}
+                        //time={`${experience.from} - ${experience.to}`}
                         position={experience.position}
                         company={experience.company}
                         companyLink={
@@ -86,7 +86,7 @@ const Experience = ({ experiences, loading }) => {
 };
 
 ListItem.propTypes = {
-  time: PropTypes.node,
+ // time: PropTypes.node,
   position: PropTypes.node,
   company: PropTypes.node,
   companyLink: PropTypes.string,
