@@ -21,14 +21,30 @@ const config = {
     fileUrl: 'https://drive.google.com/file/d/127hvfsAZanzhp57dRaPzNjJ3pdw4-mmO/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: ['LaTeX','python', 'pytorch', 'transformers', 'librosa', 'Montreal-Forced-Aligner', 'tslearn', 'fuzzysearch', 'hmmlearn', 'pandas', 'sklearn'],
-  //experiences: [
-   // {
-    //  company: 'Company Name',
-     // position: 'Position',
+  experiences: [
+    {
+      company: '2024 IEEE International Conference on Acoustics, Speech and Signal Processing Main Conference',
+      position: 'Reviewer',
       //from: 'September 2021',
       //to: 'Present',
-      //companyLink: 'https://example.com',
-    //},
+      companyLink: 'https://2024.ieeeicassp.org',
+    },
+
+        {
+      company: '2023 IEEE International Workshop on Machine Learning for Signal Processing Main Conference',
+      position: 'Reviewer',
+      //from: 'September 2021',
+      //to: 'Present',
+      companyLink: 'https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385',
+    },
+
+            {
+      company: 'IEEE Transactions on Neural Networks and Learning Systems (TNNLS) Journal',
+      position: 'Reviewer',
+      //from: 'September 2021',
+      //to: 'Present',
+      companyLink: '',
+    },
     //{
      // company: 'Company Name',
       //position: 'Position',
@@ -36,7 +52,7 @@ const config = {
       //to: 'August 2021',
       //companyLink: 'https://example.com',
    // },
-  //],
+  ],
   certifications: [
        {
       body: 'IEEE Signal Processing Cup, 2020',
