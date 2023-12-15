@@ -119,7 +119,7 @@ const config = {
     },
 
      {
-      title: 'Talk on Query-by-Example (QbE) and Query-by-Humming Music Information Retrieval (MIR) systems, WISSAP 2023',
+      title: 'Talk on Query-by-Example (QbE) and Query-by-Humming (QbH) Music Information Retrieval (MIR) systems, WISSAP 2023',
       description:
         'Invited talk in Winter School on Speech and Audio Processing 2023, IIT Kanpur. Detailed presentation of QbE systems like Shazam, Now Playing (Google) and retrieval techniques such as Vector Similarity Search, Note-based Retrieval, Hashing, Maximum Inner Product Search (MIPS), Vector Quantization, Anisotropic Vector Quantization.',
       imageUrl: 'https://www.androidpolice.com/wp-content/uploads/2020/09/25/Shazam.png',
