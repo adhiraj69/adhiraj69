@@ -90,7 +90,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'light',
+    defaultTheme: 'lemonade',
 
     // Hides the theme change switch
     // Useful if you want to support a single color mode
