@@ -59,7 +59,7 @@ const config = {
     },
   ],
   // To hide the `My Projects` section, keep it empty.
-  publications: [
+  externalProjects: [
     {
       title: 'Project Name',
       description:
