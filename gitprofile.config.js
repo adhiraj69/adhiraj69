@@ -71,7 +71,7 @@ const config = {
       title: 'Enc-Dec RNN Acoustic Word Embeddings learned via Pairwise Prediction',
       description:
         'Paper accepted in INTERSPEECH 2023 main conference',
-      imageUrl: '',
+      imageUrl: 'https://drive.google.com/file/d/1NYDsLMMs5rbvj9D_KHpCW--sf3OHcumk/view?usp=sharing',
       link: 'https://www.isca-speech.org/archive/pdfs/interspeech_2023/banerjee23_interspeech.pdf',
     },
   ],
