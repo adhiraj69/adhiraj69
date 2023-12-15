@@ -37,14 +37,40 @@ const config = {
       //companyLink: 'https://example.com',
    // },
   //],
-  //certifications: [
-   // {
-    //  body: 'Certification Body Name',
-     // name: 'Sample Certification',
-      //year: 'March 2022',
+  certifications: [
+       {
+      body: 'IEEE Signal Processing Cup, 2020',
+      name: '6th position',
+      year: '2020',
       //link: 'https://example.com',
-    //},
-  //],
+    },
+   {
+      body: 'IEEE Signal Processing Cup, 2021',
+      name: '2nd position',
+      year: '2021',
+      //link: 'https://example.com',
+    },
+
+       {
+      body: 'Financial Aid to attend ICML 2022 conference Baltimore, Maryland',
+      name: 'ICML DEI',
+      year: '2022',
+      link: 'https://icml.cc/Conferences/2022',
+    },
+
+           {
+      body: 'Financial Aid to attend ICLR 2023 conference Kigali, Rwanda',
+      name: 'ICLR DEI and Google India Research',
+      year: '2023',
+      link: 'https://iclr.cc/Conferences/2023',
+    },
+           {
+      body: 'Financial Aid to attend INTERSPEECH 2023 conference Dublin, Ireland',
+      name: 'Microsoft India Research',
+      year: '2023',
+      link: 'https://interspeech2023.org',
+    },
+  ],
   education: [
     {
       institution: 'Indian Institute of Technology Kanpur',
