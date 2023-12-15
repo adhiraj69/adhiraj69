@@ -52,21 +52,21 @@ const config = {
     },
 
        {
-      body: 'Financial Aid to attend ICML 2022 conference Baltimore, Maryland',
-      name: 'ICML DEI',
+      body: 'ICML DEI',
+      name: 'Financial Aid to attend ICML 2022 conference Baltimore, Maryland',
       year: '2022',
       link: 'https://icml.cc/Conferences/2022',
     },
 
            {
-      body: 'Financial Aid to attend ICLR 2023 conference Kigali, Rwanda',
-      name: 'ICLR DEI and Google India Research',
+      body: 'ICLR DEI and Google India Research',
+      name: 'Financial Aid to attend ICLR 2023 conference Kigali, Rwanda',
       year: '2023',
       link: 'https://iclr.cc/Conferences/2023',
     },
            {
-      body: 'Financial Aid to attend INTERSPEECH 2023 conference Dublin, Ireland',
-      name: 'Microsoft India Research',
+      body: 'Microsoft India Research',
+      name: 'Financial Aid to attend INTERSPEECH 2023 conference Dublin, Ireland',
       year: '2023',
       link: 'https://interspeech2023.org',
     },
@@ -128,7 +128,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lemonade',
+    defaultTheme: 'synthwave',
 
     // Hides the theme change switch
     // Useful if you want to support a single color mode
