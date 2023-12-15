@@ -17,7 +17,7 @@ const config = {
     email: 'adhirajbanerjee35@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1TAcs5rJGFkmULK_KRKSxBpVZElKyb13i/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/127hvfsAZanzhp57dRaPzNjJ3pdw4-mmO/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: ['LaTeX','python', 'pytorch', 'transformers', 'librosa', 'Montreal-Forced-Aligner', 'tslearn', 'fuzzysearch', 'hmmlearn'],
   //experiences: [
